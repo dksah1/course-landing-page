@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ghumaune {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: scale(-1);
+}
+
+.arrow * {
+  color: black !important;
+  position: absolute;
+  top: -85px;
+}
+
+.arrow > p {
+  margin: 0;
+  padding: 0;
+}
