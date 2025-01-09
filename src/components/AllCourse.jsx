@@ -8,7 +8,6 @@ const AllCourse = ({ cardVariants }) => {
       animate="visible"
       variants={cardVariants}
       transition={{ delay: 0.3, duration: 0.5 }}
-      // ref={boxRef}
     >
       <div className="w-[209px] h-[422px] ">
         <div className=" arrow opacity-0 group-hover:opacity-100 group-hover:translate-y-0 transform translate-y-[-20px] transition-all duration-500 ease-in-out">
